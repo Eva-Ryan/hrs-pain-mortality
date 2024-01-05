@@ -7,4 +7,8 @@ Causal analysis of the relationship between pain and mortality in American older
 
 1.  The file [1 Select variables and merge waves.R](https://github.com/Eva-Ryan/hrs_pain_mortality/blob/main/1%20Select%20variables%20and%20merge%20waves.R) contains code to load data from each data source (Fatfiles, Longitudinal File, and Census Region File), select only the variables of interest, and merge them into one dataframe.
 2.  The file [2 Clean variables.R](https://github.com/Eva-Ryan/hrs_pain_mortality/blob/main/2%20Clean%20variables.R) contains code to prepare the required variables for modelling.
-3.  The file [3 Imputation propensity scores and survival modelling.R](https://github.com/Eva-Ryan/hrs_pain_mortality/blob/main/3%20Imputation%20propensity%20scores%20and%20survival%20modelling.R) contains code to impute missing data using multiple imputation, apply propensity score matching and IPW methods within each of the 20 imputations, then pool and summarize the results.
+3.  The file [3 Imputation propensity scores and survival modelling.R](https://github.com/Eva-Ryan/hrs_pain_mortality/blob/main/3%20Imputation%20propensity%20scores%20and%20survival%20modelling.R) contains code to impute missing data using multiple imputation, apply propensity score matching and IPW methods within each of the 20 imputations, then pool and summarize the results. Also contains code to create the below Kaplan-Meier curves plot and Covariance balance plot (.png files for both plots are in the folder [Plots](https://github.com/Eva-Ryan/hrs-pain-mortality/tree/main/Plots)): 
+
+![](https://github.com/Eva-Ryan/hrs-pain-mortality/blob/main/Plots/KM%20curves.png)
+
+![](https://github.com/Eva-Ryan/hrs-pain-mortality/blob/main/Plots/Covariate%20balance%20plot.png)
