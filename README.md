@@ -1,4 +1,4 @@
-# hrs_pain_mortality
+# hrs-pain-mortality
 Causal analysis of the relationship between pain and mortality in American older adults using data from the Health and Retirement Study (HRS).
 
 **Note:** HRS data can be accessed by creating an account on the HRS website: https://hrsdata.isr.umich.edu/. This analysis is carried out using data from the RAND HRS Fatfiles for study waves 1992-2018 inclusive, the RAND HRS Longitudinal File 2020, and the Cross-Wave Census Region/Division and Mobility File.  
